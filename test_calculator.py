@@ -1,3 +1,6 @@
+# https://github.com/stephencoltharpv-sc/lab11--SC---NB-
+# Partner 1: Stephen Coltharp
+# Partner 2: Nishchay Bhattarai
 import unittest
 from calculator import *
 
@@ -12,18 +15,18 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
 
     def test_subtract(self):
-        self.assertEqual(sub(5, 3), 2)
-        self.assertEqual(sub(3, 5), -2)
-        self.assertEqual(sub(0, 5), -5)
+        self.assertEqual(subtract(5, 3), 2)
+        self.assertEqual(subtract(3, 5), -2)
+        self.assertEqual(subtract(0, 5), -5)
 
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
             div(0, 5)
 
     def test_logarithm(self):
-        self.assertAlmostEqual(log(10, 100), 2)
-        self.assertAlmostEqual(log(2, 8), 3)
-        self.assertAlmostEqual(log(10, 1), 0)
+        self.assertAlmostEqual(logarithm( 10, 100), 2)
+        self.assertAlmostEqual(logarithm(2, 8), 3)
+        self.assertAlmostEqual(logarithm(10, 1), 0)
 
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
