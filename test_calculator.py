@@ -30,12 +30,12 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
-            log(1, 10)
+            logarithm(1, 10)
 
 
     def test_log_invalid_argument(self):  # 1 assertion
         with self.assertRaises(ValueError):
-            log(0, 5)
+            logarithm(0, 5)
     ######## Partner 1
     def test_multiply(self):  # 3 assertions
         self.assertEqual(add(1, 2), 3)
