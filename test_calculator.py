@@ -1,5 +1,8 @@
 import unittest
 from calculator import *
+# https://github.com/stephencoltharpv-sc/lab11--SC---NB-
+# Partner 1: Stephen Coltharp
+# Partner 2: Nishchay Bhattarai
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
