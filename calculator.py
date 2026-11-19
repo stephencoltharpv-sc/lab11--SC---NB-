@@ -1,4 +1,7 @@
 import math
+# https://github.com/stephencoltharpv-sc/lab11--SC---NB-
+# Partner 1: Stephen Coltharp
+# Partner 2: Nishchay Bhattarai
 
 def square_root(a):
     if a <0:
